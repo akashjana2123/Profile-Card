@@ -42,6 +42,17 @@ body::before {
     gap: 40px;
 }
 
+.profile-card {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+    .profile-card {
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .profile-card {
         width: auto;
