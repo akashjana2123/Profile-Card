@@ -45,6 +45,7 @@ body::before {
 @media screen and (min-width: 200px) {
     .profile-card {
         position: relative;
+        backdrop-filter: blur(15px);
         max-width: 100%;
     }
 }
